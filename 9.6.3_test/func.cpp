@@ -9,7 +9,7 @@ void Setchaff(chaff* pc)
 	int i = 2;
 	while (i--)
 		{
-			cin >> pc->draoss;
+			cin.getline(pc->draoss,Arsize);
 			cout << "Enter the slag num: \n";
 			cout << "Enter q to quite:\n";
 			cin >> pc->slag;
